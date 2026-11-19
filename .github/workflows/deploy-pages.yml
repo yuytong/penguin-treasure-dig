@@ -1,4 +1,5 @@
 # Redeploy after GitHub Pages was enabled in repository settings.
+# Trigger a fresh publish for the yuytong project.
 name: Publish game to GitHub Pages
 on:
   push:
