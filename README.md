@@ -18,6 +18,14 @@
 PORT=3000 ./scripts/start.sh
 ```
 
+若未安裝 Docker，也可以用 Python 直接提供靜態遊戲檔案：
+
+```sh
+python3 -m http.server 8080 --directory dist
+```
+
+然後開啟 <http://localhost:8080>；在終端機按 `Ctrl+C` 停止。
+
 ## 停止
 
 ```sh
